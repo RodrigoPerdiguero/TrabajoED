@@ -4,12 +4,14 @@ class Gato extends Mascota {
     // Atributos
     private String color;
     private boolean peloLargo;
+    String Grito = "MIAU,MIAU";
     
     // Constructor
     Gato(String nombre, int edad, String estado, String fechaNac, String color, boolean peloLargo) {
         super(nombre, edad, estado, fechaNac);
         this.color = color;
         this.peloLargo = peloLargo;
+        
     }
 
     void muestra() {
@@ -22,7 +24,7 @@ class Gato extends Mascota {
     }
 
     void habla() {
-        System.out.println("MIAU MIAU");
+		System.out.println(Grito);
     }
 
     // GETTERS Y SETTERS
