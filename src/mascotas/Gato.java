@@ -4,14 +4,14 @@ class Gato extends Mascota {
     // Atributos
     private String color;
     private boolean peloLargo;
-    String Grito = "MIAU,MIAU";
+    private String Grito;
     
     // Constructor
-    Gato(String nombre, int edad, String estado, String fechaNac, String color, boolean peloLargo) {
+    Gato(String nombre, int edad, String estado, String fechaNac, String color, boolean peloLargo, String Grito) {
         super(nombre, edad, estado, fechaNac);
         this.color = color;
         this.peloLargo = peloLargo;
-        
+        this.Grito=Grito;
     }
 
     void muestra() {
@@ -21,9 +21,18 @@ class Gato extends Mascota {
         System.out.println("Nacido   : " + this.getFechaNac());
         System.out.println("Color    : " + this.getColor());
         System.out.println("PeloLargo: " + this.getPeloLargo());
+        System.out.println("Grito    : " + this.getGrito());
     }
 
-    void habla() {
+    public String getGrito() {
+		return Grito;
+	}
+
+	public void setGrito(String grito) {
+		Grito = grito;
+	}
+
+	void habla() {
 		System.out.println(Grito);
     }
 
