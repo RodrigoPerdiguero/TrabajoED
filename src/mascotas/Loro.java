@@ -21,10 +21,12 @@ class Loro extends Ave {
         System.out.println("Vuela  : " + this.getVuela());
         System.out.println("Origen : " + this.getOrigen());
         System.out.println("Habla  : " + this.getHabla());
+        
     }
 
     void habla() {
         System.out.println("HOLA HOLA");
+        System.out.println("HOLA QUÉ TAL");
     }
 
     void saluda() {
