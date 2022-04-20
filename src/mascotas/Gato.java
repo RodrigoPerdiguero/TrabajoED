@@ -13,6 +13,7 @@ class Gato extends Mascota {
     }
 
     void muestra() {
+    	System.out.println("Datos gato: ");
         System.out.println("Nombre   : " + this.getNombre());
         System.out.println("Edad     : " + this.getEdad());
         System.out.println("Estado   : " + this.getEstado());
