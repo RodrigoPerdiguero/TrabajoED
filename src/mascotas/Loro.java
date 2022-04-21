@@ -26,7 +26,7 @@ class Loro extends Ave {
 
     void habla() {
         System.out.println("HOLA HOLA");
-        System.out.println("HOLAaaaa que tall123 a ver si funciona");
+        System.out.println("HOLA ESTOY CAMBIANDO ESTOY para crear un CONFLICTOjeje");
     }
 
     void saluda() {
