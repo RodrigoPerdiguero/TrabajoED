@@ -25,7 +25,7 @@ class Gato extends Mascota {
 
     //Gato original
     void habla() {
-		System.out.println("Nyan, Nyan");
+		System.out.println("Nyan, Nyan, Soy un gatooooooooo");
     }
 
     // GETTERS Y SETTERS
