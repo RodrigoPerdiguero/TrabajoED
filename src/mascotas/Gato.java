@@ -13,17 +13,19 @@ class Gato extends Mascota {
     }
 
     void muestra() {
+    	System.out.println("Datos gato: ");
         System.out.println("Nombre   : " + this.getNombre());
         System.out.println("Edad     : " + this.getEdad());
         System.out.println("Estado   : " + this.getEstado());
         System.out.println("Nacido   : " + this.getFechaNac());
         System.out.println("Color    : " + this.getColor());
         System.out.println("PeloLargo: " + this.getPeloLargo());
+        System.out.println("Grito    : " + Grito);
     }
 
     //Gato original
     void habla() {
-        System.out.println("MIAU MIAU");
+		System.out.println("MIAU MIAU");
     }
 
     // GETTERS Y SETTERS
