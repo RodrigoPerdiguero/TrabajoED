@@ -26,7 +26,11 @@ class Loro extends Ave {
 
     void habla() {
         System.out.println("HOLA HOLA");
+<<<<<<< HEAD
         System.out.println("HOLA QUE TAL ESTO ES UNA PRUEBA");
+=======
+        System.out.println("HOLA conflicto1");
+>>>>>>> branch 'andrei_leila' of https://github.com/RodrigoPerdiguero/TrabajoED.git
     }
 
     void saluda() {
