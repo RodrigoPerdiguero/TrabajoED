@@ -7,9 +7,9 @@ class Gato extends Mascota {
     private String Grito="MIAU,MIAU";
     
     // Constructor
-    Gato(String nombre, int edad, String estado, String fechaNac, String color, boolean peloLargo) {
+    Gato(String nombre, int edad, String estado, String fechaNac, String colores, boolean peloLargo) {
         super(nombre, edad, estado, fechaNac);
-        this.color = color;
+        this.color = colores;
         this.peloLargo = peloLargo;
     }
 
