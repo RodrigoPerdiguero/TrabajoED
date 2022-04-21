@@ -31,7 +31,6 @@ class Loro extends Ave {
 
     void saluda() {
         System.out.println("Buenos días");
-        System.out.println("Buenas noches");
     }
 
     void volar() {
