@@ -4,12 +4,14 @@ public class Perro extends Mascota {
     // Atributos
     private String raza;
     private boolean pulgas;
+    private boolean vacunas;
 
     // Constructor
-    Perro(String nombre, int edad, String estado, String fechaNac, String raza, boolean pulgas) {
+    Perro(String nombre, int edad, String estado, String fechaNac, String raza, boolean pulgas,boolean vacunas) {
         super(nombre, edad, estado, fechaNac);
         this.raza = raza;
         this.pulgas = pulgas;
+        this.vacunas = vacunas;
     }
 @Override
     public void muestra() {
@@ -18,11 +20,12 @@ public class Perro extends Mascota {
         System.out.println("Estado : " + this.getEstado());
         System.out.println("Nacido : " + this.getFechaNac());
         System.out.println("Raza   : " + this.getRaza());
-        System.out.println("Pulgas : " + this.getPulgas());
+        System.out.println("¿ Tienes pulgas ?" + this.getPulgas());
+        System.out.println("Vacunas : " + this.getVacunas());
     }
 
     public void habla() {
-        System.out.println("GUAU GUAU");
+        System.out.println("GUAUGUAU"+","+"MIAU MIAU");
     }
 
     // GETTERS Y SETTERS
@@ -41,5 +44,13 @@ public class Perro extends Mascota {
 
     public void setPulgas(boolean pulgas) {
         this.pulgas = pulgas;
+    }
+    
+    public boolean getVacunas() {
+        return vacunas;
+    }
+
+    public void setVacunas(boolean vacunas) {
+        this.vacunas = vacunas;
     }
 }
