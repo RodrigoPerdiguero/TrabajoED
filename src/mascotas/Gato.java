@@ -21,6 +21,7 @@ class Gato extends Mascota {
         System.out.println("PeloLargo: " + this.getPeloLargo());
     }
 
+    //Gato original
     void habla() {
         System.out.println("MIAU MIAU");
     }
