@@ -4,10 +4,9 @@ class Loro extends Ave {
     // Atributos
     private String origen;
     private boolean habla;
-    private String pelaje;
 
     // Constructor
-    Loro(String nombre, int edad, String estado, String fechaNac, String pico, boolean vuela, String origen, boolean habla,String pelaje) {
+    Loro(String nombre, int edad, String estado, String fechaNac, String pico, boolean vuela, String origen, boolean habla) {
         super(nombre, edad, estado, fechaNac, pico, vuela);
         this.origen = origen;
         this.habla = habla;
@@ -20,7 +19,8 @@ class Loro extends Ave {
         System.out.println("Nacido : " + this.getFechaNac());
         System.out.println("Pico   : " + this.getPico());
         System.out.println("Vuela  : " + this.getVuela());
-        System.out.println("Pelaje : " + this.getPelaje());
+        System.out.println("Origen : " + this.getOrigen());
+        System.out.println("Habla  : " + this.getHabla());
         
     }
 
@@ -52,15 +52,6 @@ class Loro extends Ave {
 
     public void setHabla(boolean habla) {
         this.habla = habla;
-    }
-    
-    
-    public String getPelaje() {
-        return pelaje;
-    }
-
-    public void setPelaje(String pelaje) {
-        this.pelaje = pelaje;
     }
 
 }
