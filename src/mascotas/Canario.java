@@ -32,7 +32,7 @@ class Canario extends Ave {
     }
 
     void volar() {
-        this.setEstado("Volando");
+        this.setEstado("Volando" + this.getVuela());
     }
     
     // GETTERES Y SETTERS
