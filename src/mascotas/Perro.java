@@ -27,9 +27,7 @@ public class Perro extends Mascota {
     public void habla() {
         System.out.println("wouaff-wouaff" + this.getNombre);
     }
-    public void vacunacion() {
-        System.out.println(this.getFechaNac + this.getPulgas + this.getVacunas);
-    }
+
     // GETTERS Y SETTERS
 
     public String getRaza() {
