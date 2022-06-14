@@ -21,7 +21,10 @@ class Loro extends Ave {
         System.out.println("Vuela  : " + this.getVuela());
         System.out.println("Origen : " + this.getOrigen());
         System.out.println("Habla  : " + this.getHabla());
+<<<<<<< HEAD
         
+=======
+>>>>>>> refs/remotes/origin/master
     }
 
     void habla() {

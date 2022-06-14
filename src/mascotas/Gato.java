@@ -6,6 +6,7 @@ class Gato extends Mascota {
     private boolean peloLargo;
     
     // Constructor
+<<<<<<< HEAD
     Gato(String nombre, int edad, String estado, String fechaNac, String color, boolean peloLargo) {
         super(nombre, edad, estado, fechaNac);
         this.color = color;
@@ -23,6 +24,28 @@ class Gato extends Mascota {
 
     void habla() {
         System.out.println("MIAU MIAU");
+=======
+    Gato(String nombre, int edad, String estado, String fechaNac, String colores, boolean peloLargo) {
+        super(nombre, edad, estado, fechaNac);
+        this.color = colores;
+        this.peloLargo = peloLargo;
+    }
+
+    void muestra() {
+    	System.out.println("Datos gato: ");
+        System.out.println("Nombre   : " + this.getNombre());
+        System.out.println("Edad     : " + this.getEdad());
+        System.out.println("Estado   : " + this.getEstado());
+        System.out.println("Nacido   : " + this.getFechaNac());
+        System.out.println("Color    : " + this.getColor());
+        System.out.println("PeloLargo: " + this.getPeloLargo());
+        System.out.println("Grito    : " + Grito);
+    }
+
+    //Gato original
+    void habla() {
+		System.out.println("Nyan, Nyan, Soy un gatooooooooo");
+>>>>>>> refs/remotes/origin/master
     }
 
     // GETTERS Y SETTERS
