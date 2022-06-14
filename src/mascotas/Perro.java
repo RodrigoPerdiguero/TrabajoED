@@ -20,14 +20,16 @@ public class Perro extends Mascota {
         System.out.println("Estado : " + this.getEstado());
         System.out.println("Nacido : " + this.getFechaNac());
         System.out.println("Raza   : " + this.getRaza());
-        System.out.println("¿ Tienes pulgas ?" + this.getPulgas());
+        System.out.println("ï¿½ Tienes pulgas ?" + this.getPulgas());
         System.out.println("Vacunas : " + this.getVacunas());
     }
 
     public void habla() {
         System.out.println("wouaff-wouaff" + this.getNombre);
     }
-
+    public void vacunacion() {
+        System.out.println(this.getFechaNac + this.getPulgas + this.getVacunas);
+    }
     // GETTERS Y SETTERS
 
     public String getRaza() {
