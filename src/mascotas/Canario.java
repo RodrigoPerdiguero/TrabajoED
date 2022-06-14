@@ -4,9 +4,9 @@ class Canario extends Ave {
     // Atributos
     private String color;
     private boolean canta;
-
+    private String patas;
     // Constructor
-    Canario(String nombre, int edad, String estado, String fechaNac, String pico, boolean vuela, String color, boolean canta) {
+    Canario(String nombre, int edad, String estado, String fechaNac, String pico, boolean vuela, String color, boolean canta, String patas) {
         super(nombre, edad, estado, fechaNac, pico, vuela);
         this.color = color;
         this.canta = canta;
@@ -54,4 +54,11 @@ class Canario extends Ave {
         this.canta = habla;
     }
 
+    public boolean getPatas() {
+        return patas;
+    }
+
+    public void setPatas(String patas) {
+        this.patas = patas;
+    }
 }
