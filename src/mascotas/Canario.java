@@ -23,8 +23,8 @@ class Canario extends Ave {
         System.out.println("Canta  : " + this.getCanta());
     }
 
-    void habla() {
-        System.out.println("PIO PIO");
+    void habla() 
+        System.out.println("PIO PIO" + this.getNombre() + this.getEdad());
     }
 
     void saluda() {
@@ -32,7 +32,7 @@ class Canario extends Ave {
     }
 
     void volar() {
-        this.setEstado("Volando");
+        this.setEstado("Volando" + this.getVuela());
     }
     
     // GETTERES Y SETTERS
