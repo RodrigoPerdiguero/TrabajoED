@@ -26,9 +26,9 @@ class Canario extends Ave {
 <<<<<<< HEAD
     void habla() 
 =======
-    void habla() {
+    void habla() 
 >>>>>>> refs/heads/master
-        System.out.println("PIO PIO PIO"  + this.getEdad());
+        System.out.println("PIO PIO"  + this.getEdad());
     }
 
     void saluda() {
