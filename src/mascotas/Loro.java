@@ -20,6 +20,8 @@ class Loro extends Ave {
         System.out.println("Nacido : " + this.getFechaNac());
         System.out.println("Pico   : " + this.getPico());
         System.out.println("Vuela  : " + this.getVuela());
+        System.out.println("Vuela  : " + this.getHabla());
+        System.out.println("Vuela  : " + this.getOrigen());
         System.out.println("Pelaje : " + this.getPelaje());
     }
 
