@@ -24,7 +24,7 @@ class Canario extends Ave {
     }
 
     void habla() {
-        System.out.println("PIO PIO PIO" + this.getNombre() + this.getEdad());
+        System.out.println("PIO PIO" + this.getNombre() + this.getEdad());
     }
 
     void saluda() {
